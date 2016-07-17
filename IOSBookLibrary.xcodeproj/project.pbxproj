@@ -13,17 +13,19 @@
 		88EE88F91D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EE88F71D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld */; };
 		88EE88FB1D3B8DF300679E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EE88FA1D3B8DF300679E7D /* Assets.xcassets */; };
 		88EE88FE1D3B8DF300679E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE88FC1D3B8DF300679E7D /* LaunchScreen.storyboard */; };
+		88EE890C1D3B922A00679E7D /* note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE890B1D3B922A00679E7D /* note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88EE88ED1D3B8DF200679E7D /* IOSBookLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSBookLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE88F01D3B8DF200679E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88EE88F21D3B8DF200679E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88EE88F21D3B8DF200679E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = IOSBookLibrary/ViewController.swift; sourceTree = "<group>"; };
 		88EE88F51D3B8DF200679E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EE88F81D3B8DF200679E7D /* IOSBookLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSBookLibrary.xcdatamodel; sourceTree = "<group>"; };
 		88EE88FA1D3B8DF300679E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EE88FD1D3B8DF300679E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EE88FF1D3B8DF300679E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EE890B1D3B922A00679E7D /* note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,69 @@
 		88EE88EF1D3B8DF200679E7D /* IOSBookLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				88EE890A1D3B920D00679E7D /* note */,
+				88EE89091D3B904500679E7D /* Views */,
+				88EE89081D3B8E4700679E7D /* Misc */,
+				88EE89071D3B8E3C00679E7D /* Model */,
+				88EE89061D3B8E3000679E7D /* Controllers */,
+				88EE89051D3B8E2400679E7D /* StoryBoard */,
 				88EE88F01D3B8DF200679E7D /* AppDelegate.swift */,
-				88EE88F21D3B8DF200679E7D /* ViewController.swift */,
-				88EE88F41D3B8DF200679E7D /* Main.storyboard */,
 				88EE88FA1D3B8DF300679E7D /* Assets.xcassets */,
-				88EE88FC1D3B8DF300679E7D /* LaunchScreen.storyboard */,
 				88EE88FF1D3B8DF300679E7D /* Info.plist */,
 				88EE88F71D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld */,
 			);
 			path = IOSBookLibrary;
+			sourceTree = "<group>";
+		};
+		88EE89051D3B8E2400679E7D /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				88EE88FC1D3B8DF300679E7D /* LaunchScreen.storyboard */,
+				88EE88F41D3B8DF200679E7D /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		88EE89061D3B8E3000679E7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88EE88F21D3B8DF200679E7D /* ViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		88EE89071D3B8E3C00679E7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		88EE89081D3B8E4700679E7D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Misc;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		88EE89091D3B904500679E7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		88EE890A1D3B920D00679E7D /* note */ = {
+			isa = PBXGroup;
+			children = (
+				88EE890B1D3B922A00679E7D /* note.swift */,
+			);
+			name = note;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +197,7 @@
 				88EE88F91D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld in Sources */,
 				88EE88F31D3B8DF200679E7D /* ViewController.swift in Sources */,
 				88EE88F11D3B8DF200679E7D /* AppDelegate.swift in Sources */,
+				88EE890C1D3B922A00679E7D /* note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +210,7 @@
 				88EE88F51D3B8DF200679E7D /* Base */,
 			);
 			name = Main.storyboard;
+			path = IOSBookLibrary;
 			sourceTree = "<group>";
 		};
 		88EE88FC1D3B8DF300679E7D /* LaunchScreen.storyboard */ = {
@@ -161,6 +219,7 @@
 				88EE88FD1D3B8DF300679E7D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = IOSBookLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
