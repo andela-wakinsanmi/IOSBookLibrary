@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88EE88F11D3B8DF200679E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE88F01D3B8DF200679E7D /* AppDelegate.swift */; };
-		88EE88F31D3B8DF200679E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE88F21D3B8DF200679E7D /* ViewController.swift */; };
+		88EE88F31D3B8DF200679E7D /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE88F21D3B8DF200679E7D /* LibraryViewController.swift */; };
 		88EE88F61D3B8DF200679E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE88F41D3B8DF200679E7D /* Main.storyboard */; };
 		88EE88F91D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EE88F71D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld */; };
 		88EE88FB1D3B8DF300679E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EE88FA1D3B8DF300679E7D /* Assets.xcassets */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		88EE88ED1D3B8DF200679E7D /* IOSBookLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSBookLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE88F01D3B8DF200679E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88EE88F21D3B8DF200679E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = IOSBookLibrary/ViewController.swift; sourceTree = "<group>"; };
+		88EE88F21D3B8DF200679E7D /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = IOSBookLibrary/LibraryViewController.swift; sourceTree = "<group>"; };
 		88EE88F51D3B8DF200679E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EE88F81D3B8DF200679E7D /* IOSBookLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSBookLibrary.xcdatamodel; sourceTree = "<group>"; };
 		88EE88FA1D3B8DF300679E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		88EE89061D3B8E3000679E7D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				88EE88F21D3B8DF200679E7D /* ViewController.swift */,
+				88EE88F21D3B8DF200679E7D /* LibraryViewController.swift */,
 			);
 			name = Controllers;
 			path = ..;
@@ -201,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EE88F91D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld in Sources */,
-				88EE88F31D3B8DF200679E7D /* ViewController.swift in Sources */,
+				88EE88F31D3B8DF200679E7D /* LibraryViewController.swift in Sources */,
 				88EE89161D3B9D8B00679E7D /* Book.swift in Sources */,
 				88EE88F11D3B8DF200679E7D /* AppDelegate.swift in Sources */,
 				88EE89151D3B9D8B00679E7D /* Book+CoreDataProperties.swift in Sources */,

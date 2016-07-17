@@ -9,13 +9,11 @@
 import Foundation
 
 /*
-    The two Files generated in this case are
-    1. Book+CoreDataProperties.swift and Book.swift
-     Book.swift is the one we use to refer to Book in our project
-     Book+CoreDataProperties is an extension of the class.. An EXTENSION, 
-    An extension is a way to extend a class without inheriting from it
+    Changing the Name of the ViewController in the Story board to Library View Controller
+    XChange the Swift file from ViewControler to LibraryViewControler and also change the class declaration to reflect that
+    The last part is to go to the StoryBoard, click on the LibraryViewController, tap on the identity Inspector (3rd button)
+    Click on custom class and change it from ViewController to the new refactored LibraryViewController
  
-    Now since Book Book: NSManagedObject extends NsManagedObject, We can use to get the data we specified in the entities
  
  
  */
