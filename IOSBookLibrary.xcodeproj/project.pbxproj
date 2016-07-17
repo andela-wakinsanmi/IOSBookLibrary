@@ -14,6 +14,8 @@
 		88EE88FB1D3B8DF300679E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EE88FA1D3B8DF300679E7D /* Assets.xcassets */; };
 		88EE88FE1D3B8DF300679E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE88FC1D3B8DF300679E7D /* LaunchScreen.storyboard */; };
 		88EE890C1D3B922A00679E7D /* note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE890B1D3B922A00679E7D /* note.swift */; };
+		88EE89151D3B9D8B00679E7D /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE89131D3B9D8B00679E7D /* Book+CoreDataProperties.swift */; };
+		88EE89161D3B9D8B00679E7D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE89141D3B9D8B00679E7D /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		88EE88FD1D3B8DF300679E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EE88FF1D3B8DF300679E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EE890B1D3B922A00679E7D /* note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = note.swift; sourceTree = "<group>"; };
+		88EE89131D3B9D8B00679E7D /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88EE89141D3B9D8B00679E7D /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		88EE88E41D3B8DF200679E7D = {
 			isa = PBXGroup;
 			children = (
+				88EE89131D3B9D8B00679E7D /* Book+CoreDataProperties.swift */,
+				88EE89141D3B9D8B00679E7D /* Book.swift */,
 				88EE88EF1D3B8DF200679E7D /* IOSBookLibrary */,
 				88EE88EE1D3B8DF200679E7D /* Products */,
 			);
@@ -196,7 +202,9 @@
 			files = (
 				88EE88F91D3B8DF200679E7D /* IOSBookLibrary.xcdatamodeld in Sources */,
 				88EE88F31D3B8DF200679E7D /* ViewController.swift in Sources */,
+				88EE89161D3B9D8B00679E7D /* Book.swift in Sources */,
 				88EE88F11D3B8DF200679E7D /* AppDelegate.swift in Sources */,
+				88EE89151D3B9D8B00679E7D /* Book+CoreDataProperties.swift in Sources */,
 				88EE890C1D3B922A00679E7D /* note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,10 +320,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IOSBookLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andela.IOSBookLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -323,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IOSBookLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andela.IOSBookLibrary;
